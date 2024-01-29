@@ -1,0 +1,82 @@
+
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+.app__header-img img {
+    width: 80%;
+}
+
+@media screen and (min-width: 2000px) {
+    .app__header-h1 {
+        font-size: 180px;
+        line-height: 210px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__header-h1 {
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__header-h1 {
+        font-size: 70px;
+        line-height: 87px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__header-h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+} 
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .app-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .app-wrapper-info {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  
+  
+  
+  .p-opensans {
+    font-size: 1.2rem;
+    color: #555; 
+  }
+  
+  .custom-button {
+    background-color: #ff6600; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #e55c00; 
+  }
+  
+  
+  
